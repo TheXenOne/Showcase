@@ -217,11 +217,11 @@ namespace iga {
 		*  @param a_a A float to set the alpha color channel (normalized).
 		*/
 		void SetSpriteColor(float a_r, float a_g, float a_b, float a_a);
-        /**
-        *  Function to set the alpha color for this sprite.
-        *  @param a_a A float to set the alpha color channel (normalized).
-        */
-        void SetSpriteAlpha(float a_a);
+        	/**
+        	*  Function to set the alpha color for this sprite.
+        	*  @param a_a A float to set the alpha color channel (normalized).
+        	*/
+        	void SetSpriteAlpha(float a_a);
 
 		/**
 		*  Sets the speed of the current animation in frames per seconds.

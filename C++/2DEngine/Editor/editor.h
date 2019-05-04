@@ -113,11 +113,11 @@ namespace iga {
 		*  Disables the editor.
 		*/
 		void DisableEditor();
-        /**
-        *   Returns boolean whether the editor is enabled.
-        *   @return Is True ~  If the editor is enabled. Is False ~  If the editor is disabled.
-        */
-        bool IsEditorEnabled();
+        	/**
+        	*   Returns boolean whether the editor is enabled.
+        	*   @return Is True ~  If the editor is enabled. Is False ~  If the editor is disabled.
+        	*/
+        	bool IsEditorEnabled();
 
 		/**
 		*  Gets the Behaviour Tree Editor window object.
@@ -229,10 +229,10 @@ namespace iga {
 		*  Shows the demo imgui window.
 		*/
 		void ShowDemoWindow();
-        /**
-        *  Sets the style of ImGui.
-        */
-        void SetImGuiStyle();
+        	/**
+        	*  Sets the style of ImGui.
+        	*/
+        	void SetImGuiStyle();
 		/**
 		*  Processes Input for Editor Camera.
 		*/
