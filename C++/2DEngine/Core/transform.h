@@ -91,16 +91,16 @@ namespace iga {
 		*  @return The position of the iga::Transform as a const Vector3 reference
 		*/
 		const Vector3& GetPosition() const;
-        /**
-        *  Gets 2D position of the iga::Transform relative to the world
-        *  @return The world position of the iga::Transform as a const Vector2
-        */
-        const Vector2 Get2DWorldPosition() const;
-        /**
-        *  Gets 2D position of the iga::Transform
-        *  @return The position of the iga::Transform as a const Vector2
-        */
-        const Vector2 Get2DPosition() const;
+        	/**
+        	*  Gets 2D position of the iga::Transform relative to the world
+        	*  @return The world position of the iga::Transform as a const Vector2
+        	*/
+        	const Vector2 Get2DWorldPosition() const;
+        	/**
+        	*  Gets 2D position of the iga::Transform
+        	*  @return The position of the iga::Transform as a const Vector2
+        	*/
+        	const Vector2 Get2DPosition() const;
 		/**
 		*  Gets z rotation of the iga::Transform
 		*  @return The rotation of the iga::Transform as a float
@@ -126,16 +126,16 @@ namespace iga {
 		*  @return The scale of the iga::Transform as a const Vector3 reference
 		*/
 		const Vector3& GetScale() const;
-        /**
-        *  Gets 2D scale of the iga::Transform relative to the world
-        *  @return The world scale of the iga::Transform as a const Vector2
-        */
-        const Vector2 Get2DWorldScale() const;
-        /**
-        *  Gets 2D scale of the iga::Transform
-        *  @return The scale of the iga::Transform as a const Vector2
-        */
-        const Vector2 Get2DScale() const;
+        	/**
+        	*  Gets 2D scale of the iga::Transform relative to the world
+        	*  @return The world scale of the iga::Transform as a const Vector2
+        	*/
+        	const Vector2 Get2DWorldScale() const;
+        	/**
+        	*  Gets 2D scale of the iga::Transform
+        	*  @return The scale of the iga::Transform as a const Vector2
+        	*/
+        	const Vector2 Get2DScale() const;
 		
 		/**
 		*  Sets position of the iga::Transform.
@@ -143,12 +143,12 @@ namespace iga {
 		*  @param a_position New position for the iga::Transform as a const Vector3 reference.
 		*/
 		void SetPosition(const Vector3& a_position);
-        /**
-        *  Sets 2D position of the iga::Transform.
-        *  Sets dirty flag to true.
-        *  @param a_position New position for the iga::Transform as a const Vector2 reference.
-        */
-        void SetPosition(const Vector2& a_position);
+        	/**
+        	*  Sets 2D position of the iga::Transform.
+        	*  Sets dirty flag to true.
+        	*  @param a_position New position for the iga::Transform as a const Vector2 reference.
+        	*/
+        	void SetPosition(const Vector2& a_position);
 		/**
 		*  Sets the z rotation of the iga::Transform.
 		*  Sets dirty flag to true.
@@ -167,12 +167,12 @@ namespace iga {
 		*  @param a_scale New scale for the iga::Transform as a const Vector3 reference.
 		*/
 		void SetScale(const Vector3& a_scale);
-        /**
-        *  Sets 2D scale of the iga::Transform.
-        *  Sets dirty flag to true.
-        *  @param a_scale New scale for the iga::Transform as a const Vector2 reference.
-        */
-        void SetScale(const Vector2& a_scale);
+        	/**
+        	*  Sets 2D scale of the iga::Transform.
+        	*  Sets dirty flag to true.
+        	*  @param a_scale New scale for the iga::Transform as a const Vector2 reference.
+        	*/
+		void SetScale(const Vector2& a_scale);
 
 		/**
 		*  Sets the transform to dirty.
@@ -191,12 +191,12 @@ namespace iga {
 		*  @param a_distance Vector3 to add to the position of the iga::Transform.
 		*/
 		void Move(const Vector3& a_distance);
-        /**
-        *  Adds given distance to the 2D position of the iga::Transform.
-        *  Sets dirty flag to true.
-        *  @param a_distance Vector2 to add to the position of the iga::Transform.
-        */
-        void Move(const Vector2& a_distance);
+        	/**
+        	*  Adds given distance to the 2D position of the iga::Transform.
+        	*  Sets dirty flag to true.
+        	*  @param a_distance Vector2 to add to the position of the iga::Transform.
+        	*/
+        	void Move(const Vector2& a_distance);
 		/**
 		*  Adds given distance to the x position of the iga::Transform.
 		*  Sets dirty flag to true.
@@ -233,12 +233,12 @@ namespace iga {
 		*  @param a_distance Vector3 to add to the scale of the iga::Transform.
 		*/
 		void Scale(const Vector3& a_distance);
-        /**
-        *  Adds given 2D scale to the current scale of the iga::Transform.
-        *  Sets dirty flag to true.
-        *  @param a_distance Vector2 to add to the scale of the iga::Transform.
-        */
-        void Scale(const Vector2& a_distance);
+        	/**
+        	*  Adds given 2D scale to the current scale of the iga::Transform.
+        	*  Sets dirty flag to true.
+        	*  @param a_distance Vector2 to add to the scale of the iga::Transform.
+        	*/
+        	void Scale(const Vector2& a_distance);
 
 		/**
 		*  Updates the transform matrix of the iga::Transform if the dirty flag has been set.
