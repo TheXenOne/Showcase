@@ -80,14 +80,14 @@ void AMMCameraActor::BeginPlay()
 
 	if (!ZoomCurve)
 	{
-        UE_LOG(LogMMCamera, Error, TEXT("ERROR: Zoom curve not set in camera."));
+        	UE_LOG(LogMMCamera, Error, TEXT("ERROR: Zoom curve not set in camera."));
 	}
 
 	for (TActorIterator<APlayerController> ActorItr(GetWorld()); ActorItr; ++ActorItr)
 	{
 		PlayerControllers.Add(*ActorItr);
 
-        UE_LOG(LogMMCamera, Warning, TEXT("Adding player controller."));
+        	UE_LOG(LogMMCamera, Warning, TEXT("Adding player controller."));
 	}
 
 	if (bConsiderAllPlayers)
