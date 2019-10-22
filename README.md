@@ -7,7 +7,7 @@ It is not provided in a state where it will run, as most of it is pulled from la
 Code is divided by language and then project.
 
 ## 2D Custom Engine
-[IGArt, a custom 2D Engine](https://benlandor.000webhostapp.com/igart), is the best and most extensive show of my skill. Built over a period of 3-4 months by 9 programmers, the engine runs on PC and PSVita. Code from IGArt uses Doxygen comment style.
+[IGArt, a custom 2D Engine](https://bjlandor.000webhostapp.com/igart), is the best and most extensive show of my skill. Built over a period of 3-4 months by 9 programmers, the engine runs on PC and PSVita. Code from IGArt uses Doxygen comment style.
 
 My contribution to this included:
 * Core Engine functionality
